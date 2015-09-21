@@ -1,4 +1,5 @@
 0.02
+ - Add tests for constructor.
  - Fix ERRORS section in App::Translit::String doc.
  - Move argument processing to run() method.
  - Move author tests to xt/ directory.
