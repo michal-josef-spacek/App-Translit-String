@@ -20,6 +20,14 @@ sub new {
 	# Create object.
 	my $self = bless {}, $class;
 
+	# Object.
+	return $self;
+}
+
+# Run script.
+sub run {
+	my $self = shift;
+
 	# Process arguments.
 	$self->{'_opts'} = {
 		'h' => 0,
@@ -39,13 +47,7 @@ sub new {
 	}
 	$self->{'_string'} = $ARGV[0];
 
-	# Object.
-	return $self;
-}
-
-# Run script.
-sub run {
-	my $self = shift;
+	# Run.
 	my $ret;
 	eval {
 		my $tr = Lingua::Translit->new($self->{'_opts'}->{'t'});
