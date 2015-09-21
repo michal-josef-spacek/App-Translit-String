@@ -1,4 +1,5 @@
 0.02
+ - Fix ERRORS section in App::Translit::String doc.
  - Move author tests to xt/ directory.
  - Update README file.
 

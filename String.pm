@@ -102,12 +102,10 @@ App::Translit::String - Perl class for translit-string application.
 
 =head1 ERRORS
 
- new():
-         From Class::Utils:
-                 Unknown parameter '%s'.
-
  run():
          Cannot transliterate string.
+                 Error: %s
+         No reverse transliteration.
 
 =head1 EXAMPLE1
 
