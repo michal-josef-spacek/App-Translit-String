@@ -31,6 +31,7 @@ sub run {
 	# Process arguments.
 	$self->{'_opts'} = {
 		'h' => 0,
+		'r' => 0,
 		't' => 'ISO/R 9',
 	};
 	if (! getopts('hrt:', $self->{'_opts'}) || @ARGV < 1
