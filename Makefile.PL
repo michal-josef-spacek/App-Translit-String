@@ -10,6 +10,8 @@ abstract 'Script to transliterate string.';
 author 'Michal Spacek <skim@cpan.org>';
 author_requires 'English' => 0;
 author_requires 'File::Object' => 0.05;
+author_requires 'Test::More' => 0;
+author_requires 'Test::NoWarnings' => 0;
 author_requires 'Test::Pod' => 0;
 author_requires 'Test::Pod::Coverage' => 0;
 install_script 'bin/translit-string';
