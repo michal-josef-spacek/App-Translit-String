@@ -2,6 +2,7 @@
  - Add default value for -r argument.
  - Fix author requires.
  - Improve doc.
+ - Update copyright years.
 
 0.02 2015-09-21T22:47:48+02:00
  - Add tests for constructor.
