@@ -19,6 +19,7 @@ ARGUMENTS
     *       "-t table"
 
              Transliteration table.
+             For list of transliteration tables see L<Lingua::Translit>.
 
     *       "--version"
 
