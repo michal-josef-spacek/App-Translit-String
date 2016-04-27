@@ -122,6 +122,12 @@ App::Translit::String - Perl class for translit-string application.
  # Run.
  App::Translit::String->new->run;
 
+ # Print version.
+ sub VERSION_MESSAGE {
+        print "9.99\n";
+        exit 0;
+ }
+
  # Output:
  # Usage: /tmp/vm3pgIQWej [-h] [-r] [-t table] [--version]
  #         string
