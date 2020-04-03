@@ -155,7 +155,7 @@ L<Lingua::Translit>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/App-Translit-String>.
+L<https://github.com/michal-josef-spacek/App-Translit-String>.
 
 =head1 AUTHOR
 

@@ -30,7 +30,7 @@ requires:
   perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-Translit-String
-  homepage: https://github.com/tupinek/App-Translit-String
+  homepage: https://github.com/michal-josef-spacek/App-Translit-String
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/App-Translit-String
+  repository: git://github.com/michal-josef-spacek/App-Translit-String
 version: '0.05'

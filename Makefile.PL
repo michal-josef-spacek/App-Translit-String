@@ -25,8 +25,8 @@ requires 'Lingua::Translit' => 0;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-Translit-String';
-resources 'homepage' => 'https://github.com/tupinek/App-Translit-String';
-resources 'repository' => 'git://github.com/tupinek/App-Translit-String';
+resources 'homepage' => 'https://github.com/michal-josef-spacek/App-Translit-String';
+resources 'repository' => 'git://github.com/michal-josef-spacek/App-Translit-String';
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
