@@ -2,6 +2,7 @@
  - Fix Makefile.PL fails with no '.' in @INC.
  - Update Module::Install to 1.19 version.
  - Update author name.
+ - Update copyright years.
 
 0.04 2016-04-27T20:23:00+02:00
  - Fix example (implement --version).
