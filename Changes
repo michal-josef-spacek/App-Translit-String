@@ -1,4 +1,5 @@
 0.05
+ - Add some tests.
  - Change behaviour of run() to return exit code. And run exit in script to
    return value.
  - Fix Makefile.PL fails with no '.' in @INC.
