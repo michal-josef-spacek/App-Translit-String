@@ -1,4 +1,4 @@
-0.05
+0.05 2020-04-03T19:03:46+02:00
  - Add some tests.
  - Change behaviour of run() to return exit code. And run exit in script to
    return value.
