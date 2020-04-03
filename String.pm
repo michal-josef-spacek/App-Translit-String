@@ -83,6 +83,7 @@ App::Translit::String - Perl class for translit-string application.
 =head1 SYNOPSIS
 
  use App::Translit::String;
+
  my $obj = App::Translit::String->new;
  $obj->run;
 
