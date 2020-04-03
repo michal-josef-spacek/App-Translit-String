@@ -5,7 +5,7 @@ use warnings;
 
 use App::Translit::String;
 
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 # Run.
 exit App::Translit::String->new->run;
@@ -124,6 +124,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.05
+0.06
 
 =cut
