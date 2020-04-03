@@ -1,13 +1,10 @@
 #!/usr/bin/env perl
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use App::Translit::String;
 
-# Version.
 our $VERSION = 0.05;
 
 # Run.

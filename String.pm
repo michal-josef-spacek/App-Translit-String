@@ -1,16 +1,13 @@
 package App::Translit::String;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use English;
 use Error::Pure qw(err);
 use Getopt::Std;
 use Lingua::Translit;
 
-# Version.
 our $VERSION = 0.05;
 
 # Constructor.
@@ -112,11 +109,9 @@ App::Translit::String - Perl class for translit-string application.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use App::Translit::String;
 
  # Run.
@@ -139,11 +134,9 @@ App::Translit::String - Perl class for translit-string application.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use App::Translit::String;
 
  # Run.
