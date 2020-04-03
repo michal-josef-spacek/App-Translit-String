@@ -41,7 +41,7 @@ sub run {
 		print STDERR "\t-t table\tTransliteration table (default ".
 			"value is 'ISO/R 9').\n";
 		print STDERR "\t--version\tPrint version.\n";
-		exit 1;
+		return 1;
 	}
 	$self->{'_string'} = $ARGV[0];
 
@@ -65,7 +65,7 @@ sub run {
 			'Error', $EVAL_ERROR;
 	}
 	print "$ret\n";
-	return;
+	return 0;
 }
 
 1;

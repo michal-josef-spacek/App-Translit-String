@@ -1,4 +1,6 @@
 0.05
+ - Change behaviour of run() to return exit code. And run exit in script to
+   return value.
  - Fix Makefile.PL fails with no '.' in @INC.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
