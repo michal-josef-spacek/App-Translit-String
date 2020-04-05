@@ -85,7 +85,7 @@ App::Translit::String - Perl class for translit-string application.
  use App::Translit::String;
 
  my $obj = App::Translit::String->new;
- $obj->run;
+ my $exit_code = $obj->run;
 
 =head1 METHODS
 
@@ -98,6 +98,8 @@ App::Translit::String - Perl class for translit-string application.
 =item C<run()>
 
  Run.
+
+ Returns 1 for error, 0 for success.
 
 =back
 
@@ -116,7 +118,7 @@ App::Translit::String - Perl class for translit-string application.
  use App::Translit::String;
 
  # Run.
- App::Translit::String->new->run;
+ exit App::Translit::String->new->run;
 
  # Print version.
  sub VERSION_MESSAGE {
@@ -142,7 +144,7 @@ App::Translit::String - Perl class for translit-string application.
 
  # Run.
  @ARGV = ('Российская Федерация');
- App::Translit::String->new->run;
+ exit App::Translit::String->new->run;
 
  # Output:
  # Rossijskaja Federacija
