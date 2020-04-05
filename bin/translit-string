@@ -88,6 +88,13 @@ translit-string - Script to transliterate string.
  # Output:
  # Российскайа Федерацийа
 
+=head1 EXAMPLE4
+
+ translit-string -t 'ISO 843' Ελλάδα
+
+ # Output:
+ # Elláda
+
 =head1 DEPENDENCIES
 
 L<App::Translit::String>.

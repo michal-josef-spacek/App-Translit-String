@@ -53,6 +53,12 @@ EXAMPLE3
      # Output:
      # Российскайа Федерацийа
 
+EXAMPLE4
+     translit-string -t 'ISO 843' Ελλάδα
+
+     # Output:
+     # Elláda
+
 DEPENDENCIES
     App::Translit::String.
 
