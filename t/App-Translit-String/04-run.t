@@ -42,7 +42,7 @@ stdout_is(
 
 # Test.
 @ARGV = (
-	'-h' => 1,
+	'-h',
 );
 $right_ret = <<'END';
 Usage: t/App-Translit-String/04-run.t [-h] [-r] [-t table] [--version]
