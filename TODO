@@ -2,7 +2,8 @@ TODO
 ====
 1. Improve error output for Error::Pure.
 2. Improve test coverage.
-3.
+3. Add test for script pod.
+4.
 
 Applied
 =======
