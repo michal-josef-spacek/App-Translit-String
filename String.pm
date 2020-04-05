@@ -89,19 +89,19 @@ App::Translit::String - Perl class for translit-string application.
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item C<new()>
+ my $obj = App::Translit::String->new;
 
- Constructor.
+Constructor.
 
-=item C<run()>
+=head2 C<run>
 
- Run.
+ my $exit_code = $obj->run;
 
- Returns 1 for error, 0 for success.
+Run.
 
-=back
+Returns 1 for error, 0 for success.
 
 =head1 ERRORS
 
