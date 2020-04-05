@@ -2,7 +2,9 @@ use strict;
 use warnings;
 
 use App::Translit::String;
-use Test::More 'tests' => 4;
+use English qw(-no_match_vars);
+use Error::Pure::Utils qw(clean);
+use Test::More 'tests' => 5;
 use Test::NoWarnings;
 use Test::Output;
 use Unicode::UTF8 qw(decode_utf8);
@@ -39,6 +41,19 @@ stdout_is(
 	$right_ret,
 	'Run with reverse transliteration.',
 );
+
+# Test.
+@ARGV = (
+	'-r',
+	'-t', 'ISO 843',
+	'Elláda',
+);
+eval {
+	App::Translit::String->new->run;
+};
+is($EVAL_ERROR, "Cannot transliterate string.\n",
+	'Run with not possible reverse transliteration (Greek/ISO 843).');
+clean();
 
 # Test.
 @ARGV = (

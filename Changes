@@ -1,4 +1,5 @@
 0.06
+ - Add test for error in reverese transliteration.
  - Remove trailing code from test (argument setting).
  - Rewrite doc to using POD =head2 for methods.
  - Update doc to reality.
