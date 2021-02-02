@@ -2,6 +2,7 @@ TODO
 ====
 1. Improve error output for Error::Pure.
 2. Improve test coverage.
+Test for ! getopts(h) or -h isn't possible
 4. Test pro run funguje jenom z root adresare, to neni v poradku.
 5.
 
