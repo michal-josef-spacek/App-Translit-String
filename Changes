@@ -1,5 +1,6 @@
 0.07
  - Add test for script POD.
+ - Add test for unknown option.
  - Fix bugtracker.
  - Update copyright years.
 
