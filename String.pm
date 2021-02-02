@@ -8,7 +8,7 @@ use Error::Pure qw(err);
 use Getopt::Std;
 use Lingua::Translit;
 
-our $VERSION = 0.07;
+our $VERSION = 0.08;
 
 # Constructor.
 sub new {
@@ -174,6 +174,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.07
+0.08
 
 =cut
