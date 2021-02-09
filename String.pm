@@ -150,6 +150,20 @@ Returns 1 for error, 0 for success.
  # Output:
  # Rossijskaâ Federaciâ
 
+=head1 EXAMPLE3
+
+ use strict;
+ use warnings;
+
+ use App::Translit::String;
+
+ # Run.
+ @ARGV = ('-r', 'Rossijskaâ Federaciâ');
+ exit App::Translit::String->new->run;
+
+ # Output:
+ # Российская Федерация
+
 =head1 DEPENDENCIES
 
 L<English>,
