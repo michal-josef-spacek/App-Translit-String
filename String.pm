@@ -29,7 +29,7 @@ sub run {
 	$self->{'_opts'} = {
 		'h' => 0,
 		'r' => 0,
-		't' => 'ISO/R 9',
+		't' => 'ISO 9',
 	};
 	if (! getopts('hrt:', $self->{'_opts'}) || @ARGV < 1
 		|| $self->{'_opts'}->{'h'}) {
@@ -39,7 +39,7 @@ sub run {
 		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t-r\t\tReverse transliteration.\n";
 		print STDERR "\t-t table\tTransliteration table (default ".
-			"value is 'ISO/R 9').\n";
+			"value is 'ISO 9').\n";
 		print STDERR "\t--version\tPrint version.\n";
 		return 1;
 	}
@@ -132,7 +132,7 @@ Returns 1 for error, 0 for success.
  # 
  #         -h              Print help.
  #         -r              Reverse transliteration.
- #         -t table        Transliteration table (default value is 'ISO/R 9').
+ #         -t table        Transliteration table (default value is 'ISO 9').
  #         --version       Print version.
 
 =head1 EXAMPLE2
@@ -147,7 +147,7 @@ Returns 1 for error, 0 for success.
  exit App::Translit::String->new->run;
 
  # Output:
- # Rossijskaja Federacija
+ # Rossijskaâ Federaciâ
 
 =head1 DEPENDENCIES
 
