@@ -1,6 +1,5 @@
 TODO
 ====
-1. Improve error output for Error::Pure.
 2. Improve test coverage.
 Test for ! getopts(h) or -h isn't possible
 4. Test pro run funguje jenom z root adresare, to neni v poradku.
@@ -10,3 +9,7 @@ Applied
 =======
 3. Add test for script pod.
 OK [20210202] skim
+
+1. Improve error output for Error::Pure.
+Nevim, co jsem tim myslel.
+NONE [20210209] skim
